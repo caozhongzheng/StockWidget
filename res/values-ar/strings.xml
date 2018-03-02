@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="stocker">الأسهم</string>
+ 
+    <string name="app_name">الأسهم</string>
+    <string name="widget_name">الأسهم</string>
+   <string name="newworknull">لا توجد بيانات شبكة</string>
+    <string name="jinkai">：فتح</string>
+    <string name="zuigao">：عالي</string>
+    <string name="zuidi">：منخفض</string>
+    <string name="chengjiaoe">:حجم التعامل </string>
+    <string name="chengjiaoliang">：الحجم</string>
+    <string name="zhangdiefu">:% التغير</string>
+    <string name="zhangdiee">:التغير</string>
+    <string name="open">الوضع التجاري</string>
+    <string name="zuoshou">: إغلاق بالأمس</string>
+    <string name="zuixin">：الأخير</string>
+     <string name="hint">&#160;&#160;أدخل اسم السهم أو رمزه </string>
+     <string name="stocker_small">الأسهم</string>
+    <string name="chengjiaoliang1">الحجم</string>
+    <string name="zhangdiefu1">% التغير</string>
+    <string name="zhangdiee1">التغير</string>
+    <string name="StockNull">لا توجد معلومات عن الرصيد</string>
+    <string name="open1">افتتاح</string>
+	<string name="close">غلاق</string>
+    <string name="stop">وقف التداول</string>
+    <string name="stock_name">م</string>
+    <string name="stock_name1">خزون</string>
+    <string name="timeTitle">آخر تحديث (بكين)</string>
+ 
+    <string name="have_added">ﻢﺿﺎﻓﺓ</string>  
+    <string name="nullTag">--</string>
+    
+    <string name="sh">上证指数</string>
+    <string name="sz">深证成指</string>
+    <string name="lenovo">联想集团</string>
+
+       <string name="oneday_text">اليوميK</string>
+    <string name="onemonth_text">الأسبوعيK</string>    
+    <string name="threemonth_text">الشهري k</string>
+    <string name="fenshitu_text">الرسم البياني لاقتسام الوقت</string>
+    
+     <string name="onedays">يوم واحد</string>
+     <string name="onemonths">شهر واحد</string>
+     <string name="threemonths">ثلاثة أشهر</string>
+     <string name="oneyears">سنة واحدة</string>
+     <string name="currs">مخطط تنبؤ اليوم الحالي</string>
+     <string name="historys">التسجلات التاريخية لمنحنى القيمة الصافي</string>
+</resources>

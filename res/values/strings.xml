@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stocker">Stocker</string>
+    <string name="app_name">Stocker</string>
+    <string name="add_code">Add</string>
+    <string name="complete1">Complete</string>
+    <string name="widget_name">Stocks</string>
+    <string name="stocker_Larger">stocker_Larger</string>
+     <string name="stocker_small">Stocks</string>
+     <string name="hint">&#160;&#160;Enter the stock name or code</string>
+    <string name="codeValidate0">Enter company name or stock ID.</string>
+    <string name="codeValidate1">Checking stock ID ...</string>
+    <string name="cancel_name">Cancel</string>
+    <string name="complete_name">Search</string>
+    <string name="continue1">Really delete this stock?</string>
+     <string name="wait">please wait。。。</string>
+    <string name="jinkai">Open:</string>
+    <string name="zuigao">High:</string>
+    <string name="zuidi">Low:</string>
+    <string name="chengjiaoe">Deal size:</string>
+    <string name="chengjiaoliang">Volume:</string>
+    <string name="zhangdiefu">% Change:</string>
+    <string name="zhangdiee">Change:</string>
+    <string name="zuixin">Latest:</string>
+    <string name="open">Trade status:</string>
+    <string name="zuoshou">Close yesterday:</string>
+    
+    <string name="stock_name">S</string>
+    <string name="stock_name1">tock</string>
+     <string name="timeTitle">Last updated (Beijing)  </string>
+     
+    <string name="chengjiaoliang1">Volume</string>
+    <string name="zhangdiefu1">% Change</string>
+    <string name="zhangdiee1">Change</string>
+   
+    <string name="close">Closing</string>
+    <string name="open1">Opening</string>
+    <string name="stop">Trading halt</string>
+    
+    <string name="sinaTag">From Sina</string>
+    
+ 
+    <string name="netnotconnect">Disconnected</string>
+    <string name="newworknull">No data network</string>
+    <string name="netTitle">Updating data ...</string>
+    
+    <string name="nullTag">--</string>
+    <string name="warning">Delete</string>
+    <string name="confirm">Confirm</string>
+    <string name="StockNull">No stock information</string>
+
+    
+	<string name="have_added">Has been added</string> 
+    
+    <string name="times_pressed">Time-Sharing Chart</string>
+    <string name="oneday_text">Daily K</string>
+    <string name="onemonth_text">Weekly K</string>
+    <string name="threemonth_text">Monthly K</string>
+    
+    <string name="onedays">One day</string>
+    <string name="onemonths">One month</string>
+    <string name="threemonths">Three months</string>
+    <string name="oneyears">One year</string>
+    
+  
+    
+    <string name="currs">Current-day Prediction Diagram</string>
+    <string name="historys">Historical Net Value Curve</string>
+     <string name="sh">上证指数</string>
+    <string name="sz">深证成指</string>
+    <string name="lenovo">联想集团</string>
+ 
+    <string name="fenshitu_text">sharing plans</string>
+   
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="stocker">Börse</string>
+ 
+    <string name="app_name">Börse</string>
+    <string name="widget_name">Börse</string>
+   <string name="newworknull">Kein Datennetz</string>
+    <string name="jinkai">Öffnen:</string>
+    <string name="zuigao">Hoch:</string>
+    <string name="zuidi">Niedrig:</string>
+    <string name="chengjiaoe">Deal Größe:</string>
+    <string name="chengjiaoliang">Volumen:</string>
+    <string name="zhangdiefu">% Veränderung:</string>
+    <string name="zhangdiee">Veränderung:</string>
+    <string name="open">Handel Status:</string>
+    <string name="zuoshou">Gestern abgeschlossen:</string>
+    <string name="zuixin">Neuestes:</string>
+     <string name="hint">&#160;&#160;Geben Sie den Börsen-Name oder -Code ein</string>
+     <string name="stocker_small">Börse</string>
+    <string name="chengjiaoliang1">Volumen</string>
+    <string name="zhangdiefu1">% Veränderung</string>  
+    <string name="zhangdiee1">Veränderung</string>
+     <string name="stock_name">B</string>
+    <string name="stock_name1">örse</string>
+    <string name="open1">Eröffnung</string>
+	<string name="close">Abschluss</string>
+    <string name="stop">Handel anhalten</string>
+    
+    <string name="timeTitle">Letzte Aktualisierung (Beijing)</string>
+ 
+   <string name="StockNull">Keine Börsen-Information</string>
+ 
+    <string name="have_added">hinzugefügt</string>  
+    <string name="nullTag">--</string>
+    
+    <string name="sh">上证指数</string>
+    <string name="sz">深证成指</string>
+    <string name="lenovo">联想集团</string>
+
+       <string name="oneday_text">Täglich K</string>
+    <string name="onemonth_text">Wöchentlich K</string>    
+    <string name="threemonth_text">Monatlich K</string>
+    <string name="fenshitu_text">Time-Sharing-Diagramm</string>
+    
+     <string name="onedays">Ein Tag</string>
+     <string name="onemonths">Ein Monat</string>
+     <string name="threemonths">Drei Monate</string>
+     <string name="oneyears">Ein Jahr</string>
+     <string name="currs">Aktuelles Diagramm der Tagesvorhersage</string>
+     <string name="historys">Historische Nettowert-Kurve</string>
+</resources>

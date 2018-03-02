@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="stocker">Биржа</string>
+ 
+    <string name="app_name">Биржа</string>
+    <string name="widget_name">Биржа</string>
+   <string name="newworknull">Нет цифровой сети</string>
+    <string name="jinkai">Открыть:</string>
+    <string name="zuigao">Высокий:</string>
+    <string name="zuidi">Низкий:</string>
+    <string name="chengjiaoe">Размер сделки:</string>
+    <string name="chengjiaoliang">Объем:</string>
+    <string name="zhangdiefu">% Обмена:</string>
+    <string name="zhangdiee">Обмен:</string>
+    <string name="open">Торговый статус:</string>
+    <string name="zuoshou">Самые поздние за вчерашний день:</string>
+    <string name="zuixin">Самые поздние:</string>
+     <string name="hint">&#160;&#160;Введите название лота или код</string>
+     <string name="stocker_small">Биржа</string>
+    <string name="chengjiaoliang1">Объем</string>
+    <string name="zhangdiefu1">%Обмена</string>
+    <string name="zhangdiee1">Обмен</string>
+     <string name="stock_name">Б</string>
+    <string name="stock_name1">иржевая информация</string>
+    <string name="open1">Открытие</string>
+	<string name="close">Закрытие</string>
+    <string name="stop">Приостановка торгов</string>
+    
+    <string name="timeTitle">Обновлено в последний раз (Пекин)</string>
+ 
+   <string name="StockNull">Нет биржевой информации</string>
+ 
+    <string name="have_added">добавленный</string>  
+    <string name="nullTag">--</string>
+    
+    <string name="sh">上证指数</string>
+    <string name="sz">深证成指</string>
+    <string name="lenovo">联想集团</string>
+
+       <string name="oneday_text">Дневной К</string>
+    <string name="onemonth_text">Недельный К</string>    
+    <string name="threemonth_text">Месячный К</string>
+    <string name="fenshitu_text">График распределения времени</string>
+    
+     <string name="onedays">Один день</string>
+     <string name="onemonths">Один месяц</string>
+     <string name="threemonths">Три месяца</string>
+     <string name="oneyears">Один год</string>
+     <string name="currs">График прогнозирования на сегодняшний день</string>
+     <string name="historys">Историческая кривая чистой стоимости</string>
+</resources>

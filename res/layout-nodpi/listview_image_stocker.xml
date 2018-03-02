@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+     android:orientation="horizontal"
+     android:layout_width="fill_parent"
+     android:layout_height="48px"
+     android:id="@+id/stokereee"
+     android:background="@drawable/select_item"
+     >
+  
+     
+    <FrameLayout
+     android:orientation="vertical"
+     android:layout_width="130px"
+     android:layout_height="48px"
+    
+     
+     >
+    <ImageView
+     android:id="@+id/sanjiao"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="21px"
+     />
+    <TextView android:id="@+id/stockerName"
+         android:layout_width="130px"
+         android:layout_height="48px"
+         android:textSize="18px"
+         android:singleLine="true"
+         android:layout_marginLeft="21px"
+         android:gravity="center_vertical"
+         android:textColor="@color/listcolor"/>
+         
+          </FrameLayout>
+    <TextView android:id="@+id/stockerCode"
+         android:layout_width="90px"
+         android:layout_height="48px"
+         android:text="@string/stocker"
+         android:singleLine="true"
+         android:gravity="right|center_vertical"
+         android:layout_marginRight="5px"
+         android:textSize="18px"
+         
+         android:textColor="@color/listcolor"/>
+    <TextView android:id="@+id/stockerZuixin"
+         android:layout_width="110px"
+         android:textSize="18px"
+         android:singleLine="true"
+         android:gravity="right|center_vertical"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:layout_height="48px" 
+         android:textColor="@color/stock_zhang"
+         android:visibility="gone"
+         />
+        
+          <TextView android:id="@+id/stockerZuixin1"
+         android:layout_width="110px"
+         android:textSize="18px"
+         android:singleLine="true"
+         android:gravity="right|center_vertical"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:layout_height="48px" 
+         android:visibility="gone"
+         android:textColor="@color/stock_die"/>
+         
+           <TextView android:id="@+id/stockerZuixin2"
+         android:layout_width="110px"
+         android:textSize="18px"
+         android:singleLine="true"
+         android:gravity="right|center_vertical"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:layout_height="48px" 
+         android:visibility="gone"
+         android:textColor="@color/listcolor"/>
+        
+         
+</LinearLayout>
+

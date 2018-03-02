@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="stocker">株式</string>
+ 
+    <string name="app_name">株式</string>
+    <string name="widget_name">株式</string>
+   <string name="newworknull">データネットワークなし</string>
+    <string name="jinkai">開く:</string>
+    <string name="zuigao">高:</string>
+    <string name="zuidi">低:</string>
+    <string name="chengjiaoe">取引規模:</string>
+    <string name="chengjiaoliang">量:</string>
+    <string name="zhangdiefu">% 変更:</string>
+    <string name="zhangdiee">変更:</string>
+    <string name="open">取引ステータス:</string>
+    <string name="zuoshou">前日終値:</string>
+    <string name="zuixin">最新値:</string>
+     <string name="hint">&#160;&#160;株式名またはコードを入力</string>
+     <string name="stocker_small">株式</string>
+    <string name="chengjiaoliang1">量</string>
+    <string name="zhangdiefu1">% 変更</string>
+    <string name="zhangdiee1">取引規模</string>
+    <string name="StockNull">株式情報がありません</string>
+  
+     
+    <string name="open1">始値</string>
+	<string name="close">終値</string>
+    <string name="stop">取引停止</string>
+    
+    <string name="timeTitle">最終更新(北京)</string>
+  <string name="stock_name">株</string>
+    <string name="stock_name1">式</string>
+    
+    <!-- Button -->
+    <string name="have_added">追加済み</string> 
+    <string name="nullTag">--</string>
+  
+    
+    <string name="sh">上证指数</string>
+    <string name="sz">深证成指</string>
+    <string name="lenovo">联想集团</string>
+
+    
+    
+       <string name="oneday_text">日次 K</string>
+    <string name="onemonth_text">週次 K</string>    
+    <string name="threemonth_text">月次 K</string>
+    <string name="fenshitu_text">時分割チャート</string>
+    
+     <string name="onedays">１日</string>
+     <string name="onemonths">1か月</string>
+     <string name="threemonths">3か月</string>
+     <string name="oneyears">1年</string>
+     <string name="currs">当日予測図</string>
+     <string name="historys">正味価格曲線(履歴)</string>
+</resources>

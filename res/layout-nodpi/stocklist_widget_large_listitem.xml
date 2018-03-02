@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="46dp"
+    android:orientation="horizontal" >
+
+	<ImageView
+        android:id="@+id/small_stock"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_marginRight="-5dp"
+    	android:src="@drawable/listview_small_normal"
+    	android:scaleType="fitXY"
+    	android:visibility="gone"
+        />
+    <TextView 
+        android:layout_width="match_parent"
+	    android:layout_height="46dp"
+	    android:layout_marginRight="5dp"
+	    android:paddingLeft="15dip"
+	    android:id="@+id/stock_name"
+	    android:singleLine="true"
+	    android:textSize="18dp"
+	    android:textColor="#000000"
+	    android:gravity="center_vertical"
+	    />
+
+</FrameLayout>

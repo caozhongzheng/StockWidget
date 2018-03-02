@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="horizontal"
+    android:layout_width="324dp"
+    android:layout_height="46dp"
+    android:background="#FFFFFF"
+    >
+
+	<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >   
+        <LinearLayout 
+	        android:orientation="horizontal"
+			android:layout_width="238dp" 
+			android:layout_height="match_parent"
+			>
+			<FrameLayout
+			    android:orientation="vertical"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    >
+			    <ImageView
+				     android:id="@+id/sanjiao2"
+				     android:layout_width="wrap_content"
+				     android:layout_height="wrap_content"
+				     />
+		
+			    <TextView android:id="@+id/stockerName"
+			         android:layout_width="match_parent"
+			         android:layout_height="match_parent"
+			         android:layout_marginLeft="21px"
+			         android:gravity="left|center_vertical"
+			         android:layout_gravity="center_vertical"
+			         android:textSize="18px"
+			         android:textColor="@color/stock_one_text" 
+			         android:singleLine="true"
+			         />
+            </FrameLayout>
+            <LinearLayout 
+		        android:orientation="horizontal"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:visibility="gone"
+				>
+	    		<TextView android:id="@+id/stockerZuixin"
+			         android:layout_width="85px"
+			         android:layout_height="48px"
+			         android:gravity="left|center_vertical"
+			         android:textSize="16px"
+			         android:singleLine="true"
+			         android:textAppearance="?android:attr/textAppearanceMedium"
+			         android:layout_marginLeft="8px"
+			         android:textColor="@color/stock_texts" />
+			    <TextView android:id="@+id/stockerValues"
+			         android:layout_width="79px"
+			         android:textSize="16px"
+			         android:gravity="left|center_vertical"
+			         android:textAppearance="?android:attr/textAppearanceMedium"
+			         android:layout_height="48px" 
+			         android:singleLine="true"
+			         android:layout_marginLeft="4px"
+			         android:textColor="@color/listcolor" />
+			         
+			    <TextView android:id="@+id/stockerValues_zhang"
+			         android:layout_width="79px"
+			         android:textSize="16px"
+			         android:visibility="gone"
+			         android:gravity="left|center_vertical"
+			         android:textAppearance="?android:attr/textAppearanceMedium"
+			         android:layout_height="48px" 
+			         android:layout_marginLeft="4px"
+			         android:textColor="@color/stock_zhang" />
+			         
+			    <TextView android:id="@+id/stockerValues_die"
+			         android:layout_width="79px"
+			         android:textSize="16px"
+			         android:visibility="gone"
+			         android:singleLine="true"
+			         android:gravity="left|center_vertical"
+			         android:textAppearance="?android:attr/textAppearanceMedium"
+			         android:layout_height="48px" 
+			         android:layout_marginLeft="4px"
+			         android:textColor="@color/stock_die" />
+           </LinearLayout>
+       </LinearLayout>
+       <ImageView
+            android:layout_gravity="center_vertical"
+			android:id="@+id/delete"
+			android:layout_width="40dp"
+			android:layout_height="46dp"
+			android:scaleType="centerInside"
+			android:src="@drawable/del_wl" />
+       <ImageView   
+         	android:layout_gravity="center_vertical"
+			android:id="@+id/drag"
+			android:layout_width="40dp"
+			android:layout_height="46dp"    
+			android:layout_marginLeft="10px"
+			android:scaleType="centerInside"
+			android:src="@drawable/func_change" />
+    </LinearLayout>
+
+</FrameLayout>

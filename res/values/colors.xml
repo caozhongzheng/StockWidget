@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="stock_text_color">#ffffff</color>
+    <color name="stock_info_text_color">#87888B</color>
+    <color name="stock_text_color_zhang">#eb2626</color>
+    <color name="stock_text_color_die">#14be0a</color>
+    <color name="stock_title">#ffffffff</color>
+    <color name="update_time">#ababab</color>
+    <color name="bottom_bar">#ffffffff</color>
+     <color name="text_bar">#ffffff</color>
+    <color name="no_information">#ffe5e5e5</color>
+    <color name="item_update_time">#ffd5d5d5</color>
+    <color name="update_title">#ff808080</color>
+    <color name="stock_text_item">#b2ffffff</color>
+    <color name="text_ababab">#ababab</color>
+    <color name="stock_artist_color">#ffababab</color>
+     <color name="stock_one_text">#545454</color>
+      <color name="stock_zhang">#cc3d47</color>
+       <color name="stock_die">#5ccc3d</color>
+       <color name="stock_texts">#545454</color>
+    <color name="transparent">#0000</color>  
+    <color name="stock_text_color_name">#929292</color>
+</resources>    

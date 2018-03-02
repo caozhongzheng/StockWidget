@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <string name="stocker">股票</string>
+    <string name="app_name">股票</string>
+    <string name="add_code">添加</string>
+    <string name="complete1">完成</string>
+    <string name="widget_name">股票</string>
+    <string name="codeValidate0">请输入公司名称或者股票ID。</string>
+   <string name="newworknull">没有数据网络</string>
+    <string name="jinkai">开盘价:</string>   
+    <string name="zuigao">最高价:</string>
+    <string name="zuidi">最低价:</string>
+    <string name="chengjiaoe">成交额:</string>
+    <string name="chengjiaoliang">成交量:</string>
+    <string name="zhangdiefu">涨跌幅:</string>
+    <string name="zhangdiee">涨跌额:</string>
+    <string name="open">交易状态:</string>
+    <string name="zuoshou">昨日收盘:</string>
+    <string name="zuixin">最新价格:</string>
+    <string name="stocker_small">股票</string>
+    <string name="chengjiaoliang1">成交量</string>
+    <string name="zhangdiefu1">涨跌幅</string>
+    <string name="zhangdiee1">涨跌额</string>
+    
+     <string name="stock_name">股</string>
+    <string name="stock_name1">票</string>
+    <string name="open1">开市</string>
+	<string name="close">闭市</string>
+    <string name="stop">暂停交易</string>
+    <string name="StockNull">没有股票信息数据</string>
+   
+    <string name="timeTitle">最后更新(北京)  </string>
+    <string name="have_added">已添加</string>
+    
+    <!-- Button -->
+ 
+ <string name="hint">&#160;&#160;输入股票名称或代码</string>
+    <string name="nullTag">--</string>
+ 
+    
+    <string name="sh">上证指数</string>
+    <string name="sz">深证成指</string>
+    <string name="lenovo">联想集团</string>
+
+    <!-- For images' resources below the stock image -->
+    
+    <string name="times_pressed">times_pressed</string>
+    
+    <string name="data_refresh_msg">数据刷新失败</string>
+    
+    
+       <string name="oneday_text">日K</string>
+    <string name="onemonth_text">周K</string>    
+    <string name="threemonth_text">月K</string>
+    <string name="fenshitu_text">分时图</string>
+    
+     <string name="onedays">1天</string>
+     <string name="onemonths">1个月</string>
+     <string name="threemonths">3个月</string>
+     <string name="oneyears">1年</string>
+     <string name="currs">当日预测图</string>
+     <string name="historys">历史净值图</string>
+</resources>

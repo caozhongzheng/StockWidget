@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="stocker">股票</string>
+ 
+    <string name="app_name">股票</string>
+    <string name="widget_name">股票</string>
+   <string name="newworknull">沒有資料網路</string>
+    <string name="jinkai">開盤價:</string>
+    <string name="zuigao">最高價:</string>
+    <string name="zuidi">最低價:</string>
+    <string name="chengjiaoe">成交額:</string>
+    <string name="chengjiaoliang">成交量:</string>
+    <string name="zhangdiefu">漲跌幅:</string>
+    <string name="zhangdiee">漲跌額:</string>
+    <string name="open">交易狀態:</string>
+    <string name="zuoshou">昨日收盤:</string>
+    <string name="zuixin">最新價格:</string>
+     <string name="hint">&#160;&#160;輸入股票名稱或代碼</string>
+     <string name="stocker_small">股票</string>
+    <string name="chengjiaoliang1">成交量</string>
+    <string name="zhangdiefu1">漲跌幅</string>
+    <string name="zhangdiee1">漲跌額</string>
+     <string name="StockNull">無股票資訊</string>
+      
+    <string name="open1">開盤</string>
+	<string name="close">收盤</string>
+    <string name="stop">暫停交易</string>
+    
+    <string name="timeTitle">最後更新(北京)</string>
+   <string name="stock_name">股</string>
+    <string name="stock_name1">票</string>
+    
+    <!-- Button -->
+    <string name="have_added">已新增</string>  
+    <string name="netnotconnect">网络连接中断</string>
+    <string name="netTitle">数据更新中....</string>
+    <string name="nullTag">--</string>
+  
+    
+    <string name="sh">上证指数</string>
+    <string name="sz">深证成指</string>
+    <string name="lenovo">联想集团</string>
+
+    
+    
+       <string name="oneday_text">日K</string>
+    <string name="onemonth_text">週K</string>    
+    <string name="threemonth_text">月K</string>
+    <string name="fenshitu_text">分時圖</string>
+    
+     <string name="onedays">1天</string>
+     <string name="onemonths">1個月</string>
+     <string name="threemonths">3個月</string>
+     <string name="oneyears">1年</string>
+     <string name="currs">當日走勢圖</string>
+     <string name="historys">歷史淨值走勢圖</string>
+</resources>

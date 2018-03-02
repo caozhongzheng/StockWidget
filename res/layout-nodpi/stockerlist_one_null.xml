@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/small"
+    android:layout_width="256dp"
+    android:layout_height="196dp">    
+    <LinearLayout
+        android:id="@+id/listView1"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/stock_small_background"
+       > 
+         
+       <LinearLayout
+ 		    android:layout_width="fill_parent" 
+		    android:layout_height="40dp" 
+		    android:gravity="bottom"
+		    android:visibility="gone"
+     >
+
+		 <TextView  
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="24dp"
+		    android:singleLine="true"
+		    android:textColor="@color/stock_text_color"
+		    android:text="@string/stocker"
+		    android:gravity="center"
+		    />
+	</LinearLayout>
+	<TextView  
+	    android:visibility="gone"
+	    android:layout_width="160dp" 
+	    android:layout_height="90dp" 
+	    android:textSize="18dp"
+	    android:layout_marginLeft="25dp"
+	    android:textColor="@color/stock_one_text"
+	    android:text="@string/newworknull"
+	    android:singleLine="true"
+	     android:gravity="bottom"
+	    android:id="@+id/smallName"
+	    />
+    </LinearLayout> 
+</LinearLayout>

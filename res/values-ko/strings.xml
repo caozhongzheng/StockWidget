@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="stocker">주식</string>
+ 
+    <string name="app_name">주식</string>
+    <string name="widget_name">주식</string>
+   <string name="newworknull">데이터 네트워크 없음</string>
+    <string name="jinkai">시가:</string>
+    <string name="zuigao">고가:</string>
+    <string name="zuidi">저가:</string>
+    <string name="chengjiaoe">거래대금:</string>
+    <string name="chengjiaoliang">거래량:</string>
+    <string name="zhangdiefu">전일대비 (%):</string>
+    <string name="zhangdiee">전일대비:</string>
+    <string name="open">거래 상태:</string>
+    <string name="zuoshou">전일 종가:</string>
+    <string name="zuixin">최신:</string>
+     <string name="hint">&#160;&#160;종목명이나 코드를 입력하십시오</string>
+     <string name="stocker_small">주식</string>
+    <string name="chengjiaoliang1">거래량</string>
+    <string name="zhangdiefu1">전일대비 (%)</string>
+    <string name="zhangdiee1">전일대비</string>
+     <string name="stock_name">주</string>
+    <string name="stock_name1">식</string>
+    <string name="open1">시가</string>
+	<string name="close">종가</string>
+    <string name="stop">거래 정지</string>
+    
+    <string name="timeTitle">최신 업데이트 (베이징)</string>
+ 
+   <string name="StockNull">주식 정보 없음</string>
+ 
+    <string name="have_added">추가됨</string> 
+    <string name="nullTag">--</string>
+    
+    <string name="sh">上证指数</string>
+    <string name="sz">深证成指</string>
+    <string name="lenovo">联想集团</string>
+
+       <string name="oneday_text">일일 K</string>
+    <string name="onemonth_text">주간 K</string>    
+    <string name="threemonth_text">월간 K</string>
+    <string name="fenshitu_text">실시간 차트</string>
+    
+     <string name="onedays">1일</string>
+     <string name="onemonths">1개월</string>
+     <string name="threemonths">3개월</string>
+     <string name="oneyears">1년</string>
+     <string name="currs">당일 예상 차트</string>
+     <string name="historys">과거 순가치 차트</string>
+</resources>

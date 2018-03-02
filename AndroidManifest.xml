@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lenovo.leos.stocks"
+    android:versionCode="2012030201" android:versionName="1.0.1" >
+
+    <uses-sdk android:minSdkVersion="13" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <receiver
+            android:name=".LenovoLeosStockWidgetProvier"
+            android:icon="@drawable/panel"
+            android:label="@string/stocker_small" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.lenovo.leos.stocks.action.APPWIDGET_UPDATE"/>
+               <!--  <action android:name="android.net.conn.CONNECTIVITY_CHANGE" /> -->
+                <action android:name="android.intent.action.docking.exist" />
+                <action android:name="com.alarm.test.updateinfocomplete" />
+                <action android:name="com.alarm.test.updateitemstockerinfo" />
+                <action android:name="com.alarm.test.updateliststockerinfo" />
+                <action android:name="com.alarm.test.updateimagestockerinfo" />
+                <action android:name="com.alarm.test.updateimagefailure" />
+                <action android:name="com.android.stocker.show" />
+                <action android:name="com.alarm.test.updateinfofailure" />
+                <action android:name="com.lenovo.leos.stocks.addWidget" />
+                <action android:name="com.lenovo.leos.stocks.deleteWidget" />
+                <action android:name="com.lenovo.leos.stocks.deleteWidget" />
+                <action android:name="android.intent.action.WIDGET_SHOW" />
+                <action android:name="com.alarm.test.updateinfocomplete_item" />
+                <action android:name="com.alarm.save.updateinfocomplete_item" />
+                <action android:name="com.alarm.fetch.updateinfocomplete_items" />
+                <action android:name="com.alarm.fetch.update_items" />
+                <action android:name="com.alarm.fetch.updateinfocomplete_item" />
+                <action android:name="com.alarm.delet.updateinfocomplete_item" />
+                <action android:name="com.lenovo.launcher.pad.UPDATE_WIDGET_STOCK" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/stockerlist_appwidget_one_small" />
+        </receiver>
+        <provider
+            android:name=".StockProvider"
+            android:authorities="com.lenovo.leos.stocks.stockprovider" />
+
+        <activity
+            android:name=".DialogActivity"
+            android:theme="@style/Translucent"
+            android:configChanges="smallestScreenSize|screenSize|keyboard|orientation|screenLayout"
+            android:windowSoftInputMode="adjustPan" />
+    </application>
+
+</manifest>
